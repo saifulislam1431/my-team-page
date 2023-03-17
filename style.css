@@ -6,7 +6,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+/* Header style */
 #head-nav{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -23,6 +23,9 @@
     font-weight: 600;
     font-size: 18px;
 }
+/* Header style end */
+
+/* Main section style start */
 .teams{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -50,7 +53,10 @@
 .name{
     padding-top: 10px;
 }
+/* Main section style end */
 
+
+/* Footer style start */
 #footer{
     text-align: center;
     margin-top: 150px;
@@ -66,3 +72,4 @@
     font-weight: 700;
     color: #BDBDBD;
 }
+/* Footer style start */
