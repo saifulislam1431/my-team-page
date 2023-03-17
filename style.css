@@ -73,3 +73,40 @@
     color: #BDBDBD;
 }
 /* Footer style start */
+
+/* Responsive layout */
+
+
+@media screen and (max-width:600px) {
+    .container{
+        padding: 50px 10px ;
+    }
+    #head-nav{
+        grid-template-columns: repeat(1,1fr);
+        gap: 50px;
+    }
+
+    .teams{
+        grid-template-columns: repeat(2,1fr);
+        gap: 50px;
+    }
+    .member-img{
+        width: 120px;
+    }
+    .member2, .member4, .member6{
+        position: relative;
+        top: 80px;
+    }
+    .member5{
+        position: relative;
+        top: 0;
+    }
+    .member1, .member3 , .member5{
+        padding-left: 20px;
+    }
+    #footer{
+        text-align: center;
+        margin-top: 150px;
+    }
+    
+}
