@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#head-nav{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 100px;
+}
+.container{
+    padding: 50px 150px ;
+}
+.logo-title{
+    font-family: 'PT Serif', serif;
+}
+.head-title{
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 18px;
+}
