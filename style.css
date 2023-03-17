@@ -23,3 +23,30 @@
     font-weight: 600;
     font-size: 18px;
 }
+.teams{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 100px;
+}
+.member-img{
+    width: 200px;
+}
+.member2,.member5{
+    position: relative;
+    top: 90px;
+}
+.intro{
+    display: flex;
+    gap: 10px;
+}
+.position{
+    position: absolute;
+    transform-origin: top left;
+    transform: rotate(90deg);
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.name{
+    padding-top: 10px;
+}
