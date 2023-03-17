@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=PT+Serif:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
 
 *{
     font-family: 'Poppins', sans-serif;
@@ -49,4 +49,20 @@
 }
 .name{
     padding-top: 10px;
+}
+
+#footer{
+    text-align: center;
+    margin-top: 150px;
+}
+.footer-details{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #BDBDBD;
+    line-height: 17px;
+}
+
+.link{
+    font-weight: 700;
+    color: #BDBDBD;
 }
